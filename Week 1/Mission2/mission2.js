@@ -4,9 +4,8 @@ document.getElementById('ip').addEventListener('keypress', function(e){
   if (e.key === 'Enter') {
     e.preventDefault(); 
 =======
-  // 'Enter' 키를 확인
   if (e.key === 'Enter') {
-    e.preventDefault(); // 여기서 폼의 기본 제출 동작 등을 방지
+    e.preventDefault(); 
 >>>>>>> fd49a1951c111b2d527a6b12ce9a4e59109e63a1
     addTask();
   }
@@ -52,7 +51,7 @@ if (newTask !== "") {
 <<<<<<< HEAD
   input.value = ""; 
 =======
-  input.value = ""; // 입력 필드를 비웁니다.
+  input.value = ""; 
 >>>>>>> fd49a1951c111b2d527a6b12ce9a4e59109e63a1
 }
 }

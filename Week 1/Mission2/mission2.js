@@ -1,7 +1,13 @@
 document.getElementById('ip').addEventListener('keypress', function(e){
   var task = this.value;
+<<<<<<< HEAD
   if (e.key === 'Enter') {
     e.preventDefault(); 
+=======
+  // 'Enter' 키를 확인
+  if (e.key === 'Enter') {
+    e.preventDefault(); // 여기서 폼의 기본 제출 동작 등을 방지
+>>>>>>> fd49a1951c111b2d527a6b12ce9a4e59109e63a1
     addTask();
   }
 })
@@ -43,6 +49,10 @@ if (newTask !== "") {
   listItem.appendChild(completeButton);
   document.getElementById("list").appendChild(listItem);
   document.getElementById("list").appendChild(hr);
+<<<<<<< HEAD
   input.value = ""; 
+=======
+  input.value = ""; // 입력 필드를 비웁니다.
+>>>>>>> fd49a1951c111b2d527a6b12ce9a4e59109e63a1
 }
 }
